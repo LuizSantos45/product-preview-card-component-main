@@ -24,3 +24,8 @@ div.background-photo {
 div.body {
     margin: 20px;
 }
+
+div.body > h2 {
+    position: relative;
+    top: -15px;
+}
