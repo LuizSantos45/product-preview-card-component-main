@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Playfair:ital,opsz,wght@0,5..1200,500;0,5..1200,600;0,5..1200,700;1,5..1200,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Playfair:ital,opsz,wght@0,5..1200,500;0,5..1200,600;0,5..1200,700;1,5..1200,400&display=swap');
+
+body {
+    background: #F2EAE3;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+div#box {
+    background-color: #FFFFFF;
+    box-shadow: 1px 3px 3px #00000007;
+    border-radius: 15px;
+    width: 90%;
+}
+
+div.background-photo {
+    background: url('../images/image-product-mobile.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: 200px;
+}
+
+div.body {
+    width: 85%;
+    margin: auto;
+    color: #818287;
+}
+
+div.body > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 5px;
+    line-height: 50px;
+}
+
+div.body > h3 {
+    font-family: 'Fraunces', serif;
+    color: #1E242A;
+    font-size: 1.9em;
+    margin-top: -18px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+div.body > p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 25px;
+    margin-top: -15px;
+    width: 105%;
+}
+
+div.price {
+    display: flex;
+    margin-top: -30px;
+}
+div.price > h2 {
+    font-family: 'Fraunces', serif;
+    color: #3D8168;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+div.price > h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #838390;
+    align-items: center;
+    justify-content: center;
+    text-decoration: line-through;
+    text-align: center;
+    padding-left: 10px;
+    display: flex;
+}
+
+a {
+    background-color: #3D8168;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.94em;
+    font-weight: 560;
+    width: 90%;
+    display: block;
+    margin: auto auto 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a > img {
+    margin: auto 10px -3px auto;
+}
